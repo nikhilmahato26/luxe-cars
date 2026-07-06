@@ -47,7 +47,7 @@ export function Hero() {
           </div>
 
           <div className="flex flex-wrap justify-center lg:justify-start gap-6 text-sm font-medium tracking-wide">
-            {["Self Drive", "Premium Cars", "Instant WhatsApp Booking", "Safe & Verified Vehicles"].map((highlight, idx) => (
+            {["Self Drive", "Premium Cars", "No Security Deposit", "Instant WhatsApp Booking", "Safe & Verified Vehicles"].map((highlight, idx) => (
               <div key={idx} className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-gold-500"></div>
                 <span className="text-gray-300">{highlight}</span>
@@ -78,18 +78,18 @@ export function Hero() {
             }}>
 
               <div className="space-y-2">
-                <label className="text-sm text-gray-400">Pickup Date</label>
+                <label className="text-sm text-gray-400">Pickup Date & Time</label>
                 <div className="relative">
                   <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
-                  <input type="date" name="pickup" required className="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-4 text-white focus:outline-none focus:border-gold-500 transition-colors" />
+                  <input type="datetime-local" name="pickup" required className="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-4 text-white focus:outline-none focus:border-gold-500 transition-colors" />
                 </div>
               </div>
 
               <div className="space-y-2">
-                <label className="text-sm text-gray-400">Return Date</label>
+                <label className="text-sm text-gray-400">Return Date & Time</label>
                 <div className="relative">
                   <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
-                  <input type="date" name="return" required className="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-4 text-white focus:outline-none focus:border-gold-500 transition-colors" />
+                  <input type="datetime-local" name="return" required className="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-4 text-white focus:outline-none focus:border-gold-500 transition-colors" />
                 </div>
               </div>
 
