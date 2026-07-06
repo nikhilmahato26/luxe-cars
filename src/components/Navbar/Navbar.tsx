@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "../Common/Button";
 import { siteData } from "../../data/site";
 import { cn } from "../../utils/cn";
+import logoImg from "../../assets/logo.png";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -35,15 +36,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between">
           <a href="#" className="flex items-center gap-3 relative z-50">
-            {/* Logo Image Placeholder - user will add logo.png */}
-            <img src="/src/assets/logo.png" alt="LuxeDrive Logo" className="h-10 md:h-12 w-auto object-contain fallback-logo" onError={(e) => {
-              (e.target as HTMLImageElement).style.display = 'none';
-              document.getElementById('fallback-text')!.style.display = 'block';
-            }} />
-            <div id="fallback-text" className="hidden">
-              <span className="text-2xl font-bold tracking-wider text-gold">LUXE</span>
-              <span className="text-2xl font-light tracking-widest text-white">DRIVE</span>
-            </div>
+            <img src={logoImg} alt="LuxeDrive Logo" className="h-12 md:h-14 w-auto object-contain" />
           </a>
 
           {/* Desktop Nav */}
