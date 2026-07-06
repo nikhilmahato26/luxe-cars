@@ -31,8 +31,9 @@ export const fleet: Vehicle[] = [
       "Sunroof"
     ],
     images: [
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&q=80"
+      "https://res.cloudinary.com/dynbpb9u0/image/upload/v1783348932/IMG_2627_cmbsmi.jpg",
+      "https://res.cloudinary.com/dynbpb9u0/image/upload/v1783348933/IMG_2625_zfrbra.jpg",
+      "https://res.cloudinary.com/dynbpb9u0/image/upload/v1783348932/IMG_2626_j56pkc.jpg"
     ]
   },
   {
@@ -54,8 +55,8 @@ export const fleet: Vehicle[] = [
       "Airbags"
     ],
     images: [
-      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&q=80"
+      "https://res.cloudinary.com/dynbpb9u0/image/upload/v1783349180/IMG_1621_padjs8.jpg",
+      "https://res.cloudinary.com/dynbpb9u0/image/upload/v1783349180/IMG_1627_d9pl8x.jpg"
     ]
   },
   {
@@ -77,8 +78,9 @@ export const fleet: Vehicle[] = [
       "Airbags"
     ],
     images: [
-      "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1520031441872-265e4ff70366?auto=format&fit=crop&q=80"
+      "https://res.cloudinary.com/dynbpb9u0/image/upload/v1783349363/IMG_2630_w6zti1.jpg",
+      "https://res.cloudinary.com/dynbpb9u0/image/upload/v1783349364/IMG_2628_hxcyhr.jpg",
+      "https://res.cloudinary.com/dynbpb9u0/image/upload/v1783349363/IMG_2629_irmurj.jpg"
     ]
   },
   {
@@ -100,8 +102,9 @@ export const fleet: Vehicle[] = [
       "Bluetooth"
     ],
     images: [
-      "https://images.unsplash.com/photo-1620005574345-0d297a7a372d?auto=format&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1596700030588-e215442ed3b9?auto=format&fit=crop&q=80"
+      "https://res.cloudinary.com/dynbpb9u0/image/upload/v1783330746/IMG_2632_duw1qo.png",
+      "https://res.cloudinary.com/dynbpb9u0/image/upload/v1783349407/IMG_2633_b9zwzk.png",
+      "https://res.cloudinary.com/dynbpb9u0/image/upload/v1783349407/IMG_2634_ignh6f.png"
     ]
   }
 ];
