@@ -1,0 +1,33 @@
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--color-gold-500) !important;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(4px);
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: all 0.3s ease;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 16px !important;
+  font-weight: bold;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: rgba(212, 175, 55, 0.2);
+  transform: scale(1.1);
+}
+
+.swiper-pagination-bullet {
+  background: white !important;
+  opacity: 0.5 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color-gold-500) !important;
+  opacity: 1 !important;
+}
