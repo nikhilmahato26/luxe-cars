@@ -1,6 +1,6 @@
 import { siteData } from "../../data/site";
 import { Phone, Mail, MapPin, Camera, Globe, ArrowRight } from "lucide-react";
-import logoImg from "../../assets/logo.png";
+import logoImg from "../../assets/logo.jpg";
 
 export function Footer() {
   return (
@@ -10,7 +10,7 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-6">
             <a href="#" className="flex items-center gap-2">
-              <img src={logoImg} alt="LuxeDrive Logo" className="h-10 w-auto object-contain" />
+              <img src={logoImg} alt="LuxeDrive Logo" className="h-14 md:h-16 w-auto object-contain drop-shadow-lg" />
             </a>
             <p className="text-gray-400 text-sm leading-relaxed">
               Experience the freedom of self-drive with premium, well-maintained vehicles designed for unforgettable journeys through the breathtaking landscapes of Kashmir.

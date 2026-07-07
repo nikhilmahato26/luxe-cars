@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 import { SectionHeading } from "../Common/SectionHeading";
-import { Shield, Clock, Car, Map, CreditCard, Headphones, Sparkles, Navigation } from "lucide-react";
+import { Shield, Clock, Car, Map, CreditCard, Headphones, Sparkles, Wallet } from "lucide-react";
 
 const features = [
   { icon: Car, title: "Latest Vehicles", desc: "Well-maintained and sanitized premium cars." },
   { icon: Map, title: "Self Drive Freedom", desc: "Explore Kashmir on your own terms." },
   { icon: Shield, title: "Hassle Free Booking", desc: "Instant confirmation via WhatsApp." },
   { icon: CreditCard, title: "No Hidden Charges", desc: "Transparent pricing with no surprises." },
-  { icon: Navigation, title: "Unlimited Scenic Routes", desc: "Go anywhere within Kashmir." },
+  { icon: Wallet, title: "No Security Deposit", desc: "Rent your car with zero security deposit." },
   { icon: Sparkles, title: "Premium Experience", desc: "Top-notch customer service." },
   { icon: Clock, title: "Affordable Pricing", desc: "Luxury within your budget." },
   { icon: Headphones, title: "Instant Support", desc: "24/7 on-road assistance." },

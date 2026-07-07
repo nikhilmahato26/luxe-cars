@@ -112,11 +112,18 @@ export function FleetCard({ vehicle, index }: FleetCardProps) {
             >
               <h4 className="text-lg font-bold text-gold mb-2">Scan & Pay</h4>
               <p className="text-sm text-gray-400 mb-4">Secure your booking instantly by scanning the QR code.</p>
-              <img src="/src/assets/qr-code.png" alt="Payment QR Code" className="w-40 h-40 bg-white p-2 rounded-xl mb-4" />
-              <p className="text-xs text-gray-500">Accepted Payments</p>
-              <div className="flex gap-2 text-xs text-gray-400 mt-2 font-medium">
-                <span>UPI</span>•<span>PhonePe</span>•<span>GPay</span>•<span>Paytm</span>
+              
+              <div className="bg-white p-3 rounded-xl mb-4 flex flex-col items-center w-48">
+                <p className="text-gray-900 font-bold mb-2">Altamush Sofi</p>
+                <img src="/src/assets/qr-code.png" alt="Payment QR Code" className="w-36 h-36 object-contain" />
+                <p className="text-gray-600 text-[10px] mt-2 font-medium">UPI ID: altamushsufi@okhdfcbank</p>
               </div>
+
+              <p className="text-xs text-gray-400 font-medium">Scan to pay with any UPI app</p>
+              <div className="flex gap-2 text-xs text-gray-500 mt-2 font-medium">
+                <span>GPay</span>•<span>PhonePe</span>•<span>Paytm</span>
+              </div>
+              
               <button 
                 onClick={() => setShowQR(false)}
                 className="mt-4 text-sm text-gray-400 hover:text-white underline"

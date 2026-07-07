@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "../Common/Button";
 import { siteData } from "../../data/site";
 import { cn } from "../../utils/cn";
-import logoImg from "../../assets/logo.png";
+import logoImg from "../../assets/logo.jpg";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,7 +36,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between">
           <a href="#" className="flex items-center gap-3 relative z-50">
-            <img src={logoImg} alt="LuxeDrive Logo" className="h-12 md:h-14 w-auto object-contain" />
+            <img src={logoImg} alt="LuxeDrive Logo" className="h-12 md:h-14 w-auto object-contain drop-shadow-xl" />
           </a>
 
           {/* Desktop Nav */}
