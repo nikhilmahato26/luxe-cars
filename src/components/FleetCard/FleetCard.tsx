@@ -6,6 +6,7 @@ import { Check, Settings, Fuel, Users, Zap, Phone } from "lucide-react";
 import { Button } from "../Common/Button";
 import type { Vehicle } from "../../data/fleet";
 import { siteData } from "../../data/site";
+import qrCode from "../../assets/qr-code.png";
 
 // Swiper styles
 import "swiper/css";
@@ -115,7 +116,7 @@ export function FleetCard({ vehicle, index }: FleetCardProps) {
               
               <div className="bg-white p-3 rounded-xl mb-4 flex flex-col items-center w-48">
                 <p className="text-gray-900 font-bold mb-2">Altamush Sofi</p>
-                <img src="/src/assets/qr-code.png" alt="Payment QR Code" className="w-36 h-36 object-contain" />
+                <img src={qrCode} alt="Payment QR Code" className="w-36 h-36 object-contain" />
                 <p className="text-gray-600 text-[10px] mt-2 font-medium">UPI ID: altamushsufi@okhdfcbank</p>
               </div>
 
