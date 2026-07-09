@@ -2,6 +2,9 @@ import { motion } from "framer-motion";
 import { Button } from "../Common/Button";
 import { siteData } from "../../data/site";
 import { Calendar, Car, Phone, Star } from "lucide-react";
+import customer1 from "../../assets/hero/customer1.jpg";
+import customer2 from "../../assets/hero/customer2.jpg";
+import customer3 from "../../assets/hero/customer3.jpg";
 
 export function Hero() {
   const whatsappUrl = `https://wa.me/${siteData.whatsappNumber}?text=${encodeURIComponent("Hello! I am interested in booking a premium self-drive car.")}`;
@@ -39,15 +42,15 @@ export function Hero() {
 
           <div className="flex items-center justify-center lg:justify-start gap-4 mb-8">
             <div className="flex -space-x-3">
-               <img className="w-10 h-10 rounded-full border-2 border-dark-900 object-cover" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Customer" />
-               <img className="w-10 h-10 rounded-full border-2 border-dark-900 object-cover" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=100&q=80" alt="Customer" />
-               <img className="w-10 h-10 rounded-full border-2 border-dark-900 object-cover" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" alt="Customer" />
+               <img className="w-10 h-10 rounded-full border-2 border-dark-900 object-cover" src={customer3} alt="Customer" />
+               <img className="w-10 h-10 rounded-full border-2 border-dark-900 object-cover" src={customer1} alt="Customer" />
+               <img className="w-10 h-10 rounded-full border-2 border-dark-900 object-cover" src={customer2} alt="Customer" />
                <div className="w-10 h-10 rounded-full border-2 border-dark-900 bg-gold-500 flex items-center justify-center text-xs font-bold text-dark-900 relative z-10">100+</div>
             </div>
             <div className="text-left">
               <div className="flex gap-1 mb-1">
                 {[1, 2, 3, 4, 5].map((i) => (
-                  <Star key={i} className="w-4 h-4 text-gold-500 fill-current" />
+                  <Star key={i} className="w-5 h-5 text-gold-500 fill-current" />
                 ))}
               </div>
               <p className="text-sm text-gray-300">Trusted by <span className="text-white font-bold">100+ Customers</span></p>

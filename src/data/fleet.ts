@@ -31,7 +31,7 @@ export const fleet: Vehicle[] = [
       "Sunroof"
     ],
     images: [
-      "https://res.cloudinary.com/dynbpb9u0/image/upload/v1783348932/IMG_2627_cmbsmi.jpg",
+      "https://res.cloudinary.com/dynbpb9u0/image/upload/v1783582014/WhatsApp_Image_2026-07-09_at_12.54.37_uluczr.jpg",
       "https://res.cloudinary.com/dynbpb9u0/image/upload/v1783348933/IMG_2625_zfrbra.jpg",
       "https://res.cloudinary.com/dynbpb9u0/image/upload/v1783348932/IMG_2626_j56pkc.jpg"
     ]

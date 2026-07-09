@@ -33,7 +33,7 @@ export function FleetCard({ vehicle, index }: FleetCardProps) {
       className="glass-card rounded-3xl overflow-hidden group hover:-translate-y-2 transition-transform duration-500"
     >
       {/* Image Carousel */}
-      <div className="relative h-64 md:h-80 w-full overflow-hidden">
+      <div className="relative h-80 md:h-96 w-full overflow-hidden border-b border-white/10">
         <Swiper
           modules={[Navigation, Pagination, Autoplay, EffectFade]}
           effect="fade"
@@ -51,7 +51,6 @@ export function FleetCard({ vehicle, index }: FleetCardProps) {
                   alt={`${vehicle.name} view ${i + 1}`}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-dark-900 to-transparent"></div>
               </div>
             </SwiperSlide>
           ))}
